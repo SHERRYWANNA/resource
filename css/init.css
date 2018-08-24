@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ul, ol, li, small, form, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+    max-height: 9999px;
+}
+h1, h2, h3, h4, h5, h6, button, input, select, textarea {
+    font-size: 100%;
+    font-weight: normal}
+input, button, textarea, select {
+    outline: none;
+    background-color: white;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    display: block;
+}
+textarea {
+    resize: none}
+input {
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    color: #333;
+    _background-attachment: fixed;
+    _background-image: url(about: blank)
+}
+body, button, input, select, textarea {
+    line-height: 1.5em;
+    font-family: '\5FAE\8F6F\96C5\9ED1', 'Microsoft YaHei', \5b8b\4f53, tahoma, arial, sans-serif;
+    border: 0}
+@font-face {
+    font-family: 'sourceHanSan';
+    src: url(../../resource/font/SourceHanSansCN-Regular.otf);
+    
+}
+html,  body{
+    font-family: "sourceHanSan", "Hiragino Sans GB", "PingFang SC", Helvetica, "Microsoft YaHei", "Hiragino Sans GB", "enQuanYi Micro Hei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    line-height: 1.5em;
+    max-width: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+    text-decoration: none;
+    outline: 0;
+    color: inherit;
+}
+b, span {
+    color: inherit;
+    font-style: inherit;
+    font-size: inherit;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.btn{
+    cursor: pointer;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+body .hidden {
+    display: none;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix: after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    zoom: 1;
+    overflow: hidden;
+}

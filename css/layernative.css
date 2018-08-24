@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* float window layer */
+.layer { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    pointer-events: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none; 
+    z-index: 50;
+}
+.layer_cover { 
+    background: url(//i.thsi.cn/images/liejin/zhuanti/5861/images/cover.png);
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
+    display: none; 
+    z-index: 50; 
+    pointer-events: auto; 
+}
+.layer_container { 
+    width: 80%; 
+    position: fixed; 
+    top: 4rem; 
+    left: 50%; 
+    margin-left: -40%; 
+    pointer-events: auto; 
+    z-index: 100; 
+    display: none; 
+    text-align: center; 
+    padding-top: .5rem; 
+    background-color: #fff;
+    border-radius: .3rem;
+}
+.layer_tt { 
+    font-size: .4rem; 
+    line-height: 1.4em;
+    text-align: center; 
+    color: #000; 
+    font-weight: bold; 
+}
+.layer_content {
+    font-size: .32rem; 
+    line-height: 1.6em; 
+    color: #000; 
+    text-align: center;
+    padding: .625em 1.4em 1em;
+}
+.layer_btnarea { 
+    font-size: 0; 
+}
+.layer_btn { 
+    font-size: .32rem; 
+    width: 100%;
+    text-align: center; 
+    height: 2.75em; 
+    line-height: 2.75em; 
+    display: inline-block; 
+    color: #5571ed; 
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+}
+
+@media only screen and (min-width: 667px) and (-webkit-min-device-pixel-ratio: 3)
+    , only screen and (min-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .layer_container {
+        width: 440px;
+        margin-left: -220px;
+        padding-top: 20px;
+        top: 3rem;
+    }
+    .layer_tt {
+        font-size: 24px;
+        padding: 0 20px;
+    }
+    .layer_content {
+        font-size: 16px;
+    }
+    .layer_btn {
+        font-size: 18px;
+    }
+}
